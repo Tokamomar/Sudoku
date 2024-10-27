@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+    <title>Sudoku</title>
+    <link rel="icon" href="Minders_logo.jpg">
+	<link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Sudoku</h1>
+    <hr>
+    
+    <!-- Error counter -->
+    <h2 id="errors">0</h2>
+
+    <!-- Sudoku 9x9 board -->
+    <div id="board"></div>
+    <br>
+
+    <!-- Digit selection -->
+    <div id="digits">
+    </div>
+
+    <!-- Solve & Reset buttons -->
+    <button class="button" onclick="solve()">Solve</button>
+    <button class="button" onclick="reset()">Reset</button>
+</body>
+
+</html>
